@@ -8,6 +8,15 @@
 </head>
 <body>
 
+  <div id="nav">
+    <ul>
+      <li><%= link_to "Sign out", orders_path %></li> <!-- change -->
+    </ul>
+  </div>
+  <div id="logo">
+    <%= link_to image_tag("logo1.png"), orders_path %>
+  </div>
+
 <%= yield %>
 
 </body>

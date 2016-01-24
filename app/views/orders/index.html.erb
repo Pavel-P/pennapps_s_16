@@ -1,23 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
-</head>
-
-<body>
-<div id="nav">
-  <ul>
-    <li><a href="index.html">Sign out</a></li>
-  </ul>
-</div>
-
-<div id="logo">
-  <img src="logo1.png">
-</div>
-
 <div id="greetings">
-  <img class="avatar" src="Russell.png" alt="avatar" />
+  <%=image_tag("Russell.png", class: "avatar", alt: "avatar")%>
 </div>
 
 <div id="info">
@@ -31,7 +13,7 @@
     </div>
   </form>
   <div class='buttons'>
-  <button>Upload Prescription</button>
+  <%= link_to button_tag("Upload Prescription"), orders_path %>
   </div>
 </div>
 
@@ -39,9 +21,5 @@
 <div id="time">
   <h3>30</h3>
   <h4>MINS</h4>
-  <button>Request Delivery</button>
+  <%= link_to button_tag("Request Delivery"), orders_path %>
 </div>
-
-
-</body>
-</html>
