@@ -1,0 +1,194 @@
+body {
+  font-family: "HelveticaNeue";
+  letter-spacing: 0.05em;
+  margin: auto;
+}
+
+#logo img{
+  height: 30px;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+
+#logo:hover {
+  background-color: #4A4A4A;
+}
+
+#nav ul{
+  margin: 0;
+  padding: 50;
+  overflow: hidden;
+  background-color: #FFA3A3;
+}
+
+#nav li {
+  display: inline;
+  float: right;
+}
+
+#nav a{
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+
+  -o-transition:.2s;
+  -ms-transition:.2s;
+  -moz-transition:.2s;
+  -webkit-transition:.2s;
+  transition:.2s;
+}
+
+#nav a:hover {
+  background-color: #4A4A4A;
+}
+
+#greetings {
+  display: block;
+  width: 400px;
+  margin-top: 100px;
+  margin-left: 10%;
+}
+
+#info h1{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #4A4A4A;
+}
+
+h2{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 0px;
+  color: #9B9B9B;
+}
+
+.avatar {
+  margin-top: -15px;
+  height: 25%;
+  width: 25%;
+  float: left;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+#info {
+  display: block;
+  width: 400px;
+  margin-top: 100px;
+  margin-left: 20%;
+}
+
+#info form{
+  margin-top: 50px;
+}
+
+input[type=text] {
+    padding:0px; 
+    background-color: transparent; 
+    border-style: solid; 
+    border-width: 0px 0px 2px 0px; 
+    border-color: #ccc;
+}
+
+
+
+#info .quote{
+  margin-top: 50px;
+}
+
+#info button{
+  margin-top: 47px;
+  color: #ffffff;
+}
+
+button {
+  background-color: #FFA3A3;
+  border: none;
+  color: #ffffff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  -o-transition:.2s;
+  -ms-transition:.2s;
+  -moz-transition:.2s;
+  -webkit-transition:.2s;
+  transition:.2s;
+}
+
+button:hover {
+  background-color: #4A4A4A;
+}
+
+#time {
+  position: absolute;
+  right: 25%;
+  top: 90px;
+}
+
+#time h3 {
+  font-size: 150px;
+  letter-spacing: 0.1em;
+  line-height: 0px;
+  color: #4A4A4A;
+}
+
+#time h4 {
+  margin-top: -30px;
+  font-size: 40px;
+  margin-left: 40px;
+  line-height: 0px;
+  color: #9B9B9B;
+}
+
+#time button{
+  margin-top: 15px;
+  color: #ffffff;
+}
+
+#signin {
+  display: block;
+  text-align: center;
+  margin-top: 180px;
+}
+
+#signup {
+  display: block;
+  text-align: center;
+  margin-top: 80px;
+}
+
+
+#signup img{
+  height: 250px;
+}
+
+#signup input{
+  font-size: 16px;
+  color: white;
+  border-color: #ffffff;
+  text-align: center;
+   
+}
+
+
+#signin img{
+  height: 250px;
+}
+
+#signin input{
+  font-size: 16px;
+  color: white;
+  border-color: #ffffff;
+  text-align: center;
+   
+}
